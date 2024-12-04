@@ -1,0 +1,73 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #58433a, #fc6925);
+    color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    text-align: center;
+    background: rgba(239, 236, 236, 0.564);
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#display {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.641);
+    padding: 10px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+#buttons button {
+    font-size: 1.2rem;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#startBtn {
+    background-color: #28a745;
+    color: rgb(9, 9, 9);
+}
+
+#stopBtn {
+    background-color: #dc3545;
+    color: rgb(11, 11, 11);
+}
+
+#resetBtn {
+    background-color: #2f96f7;
+    color: black;
+}
+
+#buttons button:hover {
+    transform: scale(1.1);
+}
+
+#buttons button:active {
+    transform: scale(1);
+}
